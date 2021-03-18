@@ -1033,7 +1033,7 @@ Text GLabel 3700 1200 2    50   Input ~ 0
 NRST
 Text GLabel 1800 1400 0    50   Input ~ 0
 NSS
-Text GLabel 1800 2200 0    50   Input ~ 0
+Text GLabel 1800 2500 0    50   Input ~ 0
 SWDIO_route
 Text GLabel 3200 1900 2    50   Input ~ 0
 UART_TX_route
@@ -1041,22 +1041,28 @@ Text GLabel 3200 2400 2    50   Input ~ 0
 DI
 Text GLabel 3200 1400 2    50   Input ~ 0
 BUSY
-Text GLabel 1800 2000 0    50   Input ~ 0
+Text GLabel 1800 1800 0    50   Input ~ 0
 MISO_route
 Text GLabel 3200 1500 2    50   Input ~ 0
 LED1
-Text GLabel 4850 2350 0    50   Input ~ 0
+Text GLabel 1800 1600 0    50   Input ~ 0
 NRESET
 Wire Notes Line
 	4300 900  5900 900 
 Wire Notes Line
-	5900 900  5900 1750
+	5900 900  5900 1950
 Wire Notes Line
-	5900 1750 4300 1750
+	5900 1950 4300 1950
 Wire Notes Line
-	4300 1750 4300 900 
+	4300 1950 4300 900 
 Text Notes 4350 1100 0    50   ~ 0
 pad shorts to\nroute it all
-Text Notes 4600 2250 0    100  ~ 20
-TBD
+Text GLabel 1800 1300 0    50   Input ~ 0
+NRESET_route
+Text GLabel 4750 1800 0    50   Input ~ 0
+NRESET
+Text GLabel 4900 1800 2    50   Input ~ 0
+NRESET_route
+Wire Wire Line
+	4750 1800 4900 1800
 $EndSCHEMATC
