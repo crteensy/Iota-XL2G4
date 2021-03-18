@@ -61,14 +61,6 @@ F 3 "" H 10450 1750 50  0001 C CNN
 	1    10450 1750
 	1    0    0    -1  
 $EndComp
-Text Notes 9475 6500 0    50   ~ 0
-This might be still necessary or not\n\n
-Wire Notes Line
-	9425 6525 11200 6525
-Wire Notes Line
-	11200 6525 11200 5350
-Wire Notes Line
-	11200 5350 9425 5350
 $Comp
 L power:+3.3V #PWR018
 U 1 1 608B9055
@@ -1065,4 +1057,6 @@ Text GLabel 4900 1800 2    50   Input ~ 0
 NRESET_route
 Wire Wire Line
 	4750 1800 4900 1800
+Text Notes 3450 2950 0    100  ~ 20
+does SWDCLK_BOOT0 need a pulldown?
 $EndSCHEMATC
